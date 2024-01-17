@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .login-box {
+            display: grid;
+            grid-template-rows: 25% 25% 10% 10% 15% 10%;
+
+            background-color: white;
+            width: 350px;
+            height: 400px;
+            font-size: 15px;
+            color: black;
+            font-weight: 700;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+        }
+
+        .instagram {
+            padding: 20px;
+            justify-self: center;
+        }
+
+        .login {
+            padding: 0 15px 0 15px;
+            display: grid;
+            justify-self: center;
+            grid-template-rows: auto auto;
+
+        }
+
+        .email {}
+
+        .pw {
+            padding: 0 0 20px 0;
+        }
+
+        .btn-login {
+            background-color: #B2DFFC;
+            width: 300px;
+            height: 35px;
+            font-size: 15px;
+            color: white;
+            font-weight: 700;
+            border-radius: 6px;
+            border: none;
+            justify-self: center;
+        }
+
+        .or {
+            display: flex;
+            align-items: center;
+            justify-self: center;
+        }
+
+        .facebook-log {
+            display: flex;
+            grid-template-columns: auto auto;
+            justify-self: center;
+            color: #385195;
+            align-items: center;
+
+        }
+
+        .lost-pw {
+            justify-self: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-box">
+        <div class="instagram">
+            <img src="images/logo.png">
+        </div>
+        <div class="login">
+            <div class="email">
+                <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일" style="width: 300px; height: 30px;">
+            </div>
+            <div class="pw">
+                <input type="text" placeholder="비밀번호" style="width: 300px; height: 30px;">
+            </div>
+        </div>
+        <input type="button" value="로그인" class="btn-login">
+        <div class="or">
+            <img src="images/or.png">
+        </div>
+        <div class="facebook-log">
+            <img src="images/facebook-logo.png">
+            <div>Facebook으로 로그인</div>
+        </div>
+        <div class="lost-pw">비밀번호를 잊으셨나요?</div>
+    </div>
+</body>
+
+</html>

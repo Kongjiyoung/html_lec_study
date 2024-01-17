@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .image-container {
+            display: grid;
+            position: relative;
+            height: 500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            grid-template-columns: 50% 50%;
+        }
+
+        .main {
+            width: 100%;
+            padding: 20px 20px 0 20px;
+            position: absolute;
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .logo {
+            display: grid;
+            justify-self: start;
+            font-weight: 900;
+            font-size: 25px;
+        }
+
+        .menu3 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-self: center;
+            grid-column-gap: 10px;
+        }
+
+        .menu4 {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-self: end;
+            grid-column-gap: 10px;
+
+        }
+
+        .image {
+            background: url("vacation.jpg") no-repeat center 100%;
+            background-size: cover;
+            height: 500px;
+
+        }
+
+        .background-right {
+            display: grid;
+            grid-template-rows: 85% 15%;
+
+        }
+
+        .background-color {
+            background-color: #F8ECEB;
+        }
+
+        .background-margin {
+            height: 425px;
+            display: grid;
+            grid-template-rows: 25% 15% 15% 45%;
+            margin-left: 15%;
+        }
+
+        .new {
+            display: grid;
+            font-size: 50px;
+            font-weight: 900;
+        }
+
+        .collection {
+            display: grid;
+            font-size: 50px;
+            font-weight: 900;
+
+        }
+
+        .background-bottom {
+            display: grid;
+            background-color: white;
+            grid-template-rows: 33% 33% 33%;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .background-botoom-menu {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .menu1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-self: start;
+            grid-column-gap: 5px;
+        }
+
+        .menu2 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-self: end;
+            grid-column-gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image-container">
+        <div class="main">
+            <div class="nav">
+                <div class="logo">zuzu.</div>
+                <div class="menu3">
+                    <div>about</div>
+                    <div>collections</div>
+                    <div>videos</div>
+                    <div>contact</div>
+                </div>
+                <div class="menu4">
+                    <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                    <div>ENG</div>
+                </div>
+            </div>
+        </div>
+        <div class="image"></div>
+        <div class="background-right">
+            <div class="background-color">
+                <div class="background-margin">
+                    <div></div>
+                    <div class="new">New</div>
+                    <div class="collection">collection</div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="background-bottom">
+                <div></div>
+                <div class="background-botoom-menu">
+                    <div class="menu1">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                    <div class="menu2">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
